@@ -4,7 +4,7 @@ function App() {
   return (
     <h1 style={
       {
-        color: 'blue',
+        color: 'red',
         fontSize: '400%',
         textAlign: 'center',
         paddingTop: '10%'
