@@ -1,17 +1,14 @@
 import './App.css';
+import AboutMe from './components/aboutMe/AboutMe';
+
+import Footer from './components/footer/Footer';
 
 function App() {
   return (
-    <h1 style={
-      {
-        color: 'red',
-        fontSize: '400%',
-        textAlign: 'center',
-        paddingTop: '10%'
-      }
-    }>
-      Hello
-    </h1>
+    <>
+    <AboutMe />
+    <Footer />
+    </>
   );
 }
 
